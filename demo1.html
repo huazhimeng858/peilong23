@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+    <!--<link rel="stylesheet" href="css/ie8-media.css">-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.js"></script>
+    <![endif]-->
+    <style>
+        *{margin:0;padding:0;}
+
+        body{font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;}
+        .fusion-header{padding:25px 0;border:0;}
+        .fusion-slider{margin-top:100px;background: url(images/banner.png) center center;color:#fff;height: 600px;margin-bottom: 50px;position: relative;border:none;+margin-top:250px;}
+        /*.fusion-slider h1{margin-top: 60px;}*/
+        .fusion-slider h1{ font-size: 32px;margin-top: 160px;font-weight: 100;}
+        .fusion-slider h2{ font-size: 82px;margin-top: 10px;font-weight: 200;*margin-bottom:30px;}
+
+        .fusion-slider-button{margin-top: 20px;}
+        .fusion-slider-loading{width:32px;height:32px;z-index: 10!important;position: absolute;top:50%;left:50%;opacity:1;-webkit-transition: opopacity 2s;
+            -moz-transition: opopacity 2s;
+            -ms-transition: opopacity 2s;
+            -o-transition: opopacity 2s;
+            transition: opopacity 2s;}
+        .fusion-slider-button{border-radius: 20px;width:100px;height:36px;border:1px solid #fff;line-height: 36px;display: inline-block;margin-top: 30px;behavior: url(PIE.htc);*margin-top:0;position:relative;}
+        .fusion-slider-button a{color:#ebebeb;text-decoration: none;font-size: 12px;}
+        .fusion-slider-button a:hover{color:#fff;text-decoration: none;}
+
+
+
+
+        .fusion-media{margin-top: 170px;}
+        .fusion-media-content h1{font-size: 30px;font-weight: bold;}
+        .fusion-media-text p{color:#747474;font-size: 15px;font-weight: 300;line-height: 28px;text-indent:2em;padding: 20px 0;}
+        .fusion-media-video{border:1px dotted #d4d4d4;padding: 10px 0;}
+
+        .fusion-media-contact{color:#747474;font-size: 14px;font-weight: 300;line-height: 44px;}
+        .fusion-media-contact h2{font-weight: bold;border-bottom: 1px dotted #d4d4d4;padding-bottom: 10px;}
+        .fusion-media-contact h4{font-weight: bold;margin-top: 30px;}
+
+
+        .fusion-footer{width:100%;background-color: #292a2c;font-size: 12px;line-height: 28px;}
+        .fusion-footer-notice{padding: 20px 0;color:#747474;}
+        .fusion-footer-notice a{color:#747474;text-decoration: none;}
+        .fusion-footer-notice a:hover,.fusion-footer-notice a:active,.fusion-footer-notice a:visited{text-decoration: none;color:#6aace0;}
+        .bottom-mark{background-color: transparent;border: none;height:35px!important;}
+        .back-to-top{width:50px;height:35px;background-color: #000;margin-right: 50px;opacity: 0.7;border-radius: 5px;text-align: center;padding-top: 10px;color:#fff;margin-top: 20px;}
+        .back-to-top:hover{background-color: #64a9ca;}
+        #back-to-top{display: none;}
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top fusion-header">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="logo page-scroll" href=""><img src="images/logo.png" alt="墨轨迹"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <!-- MAIN NAV LINKS -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="page-scroll" href="#">首页</a></li>
+                <li><a href="#">热力图</a></li>
+                <li><a href="#">客服后台</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+            <!-- END MAIN NAV LINKS -->
+        </div>
+    </div>
+</nav>
+<section class="fusion-media">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 fusion-media-content">
+                <h1>关于墨轨迹</h1>
+                <video id="example_video_1" controls="controls" autoplay="autoplay" class="col-md-12 col-sm-12 col-xs-12 fusion-media-video">
+                    <source src="media/墨轨迹宣传视频_起风了.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="col-md-12 col-sm-12 col-xs-12 fusion-media-text">
+                    <p>墨轨迹室内定位技术借助空间中的无线信号场（如WI-FI信号，蓝牙信号，地磁场，GPS，蜂窝信号等）以及设备内置的传感器（如加速度计，陀螺仪，信号收发模块）对移动设备（通常为智能手机）进行定位。在商场、写字楼等使用环境中，可实时的进行室内外切换以及楼层自动识别，并可定位该设备在室内环境中的位置。较之室外定位技术（最优10米误差），该技术的信号场独立定位方案平均精度可达2-4米，信号场-惯性传感器融合方案平均精度高达1-2米。其兴趣点（特定楼宇位置、路口、特定店铺位置、收费站）自动识别的准确度可达93%以上，并且具有极好的平台兼容性与设备兼容性。该技术开放通用接口，易于与其他室内外LBS应用融合。本技术应用场景广泛，可用于室内用户定位导航，公共场所人流分析，广告精准定向推送，自动化巡逻系统，智能无人机监控等诸多领域。</p>
+                </div>
+
+                <video controls="controls" class="col-md-12 col-sm-12 col-xs-12 fusion-media-video">
+                    <source src="media/哈利波特的圣诞泡妞神器720p.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fusion-media-contact">
+                <h2>联系我们</h2>
+                <h4>北京</h4>
+                <label for="fusion-address"></label><span id="fusion-address">北京朝阳区朝外雅宝路12号华声国际大厦2层106室</span><br />
+                <label for="fusion-iphone">联系电话:</label><span id="fusion-iphone">+86 010-5369 5932</span>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="fusion-footer clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="fusion-footer-notice col-lg-11 col-md-12 text-center">
+                <div>Copyright 2013-2016 北京墨轨迹科技|<a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备15063803号</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<nav class="navbar navbar-default navbar-fixed-bottom bottom-mark" id="back-to-top">
+    <a href="#" class="pull-right back-to-top"><span class="glyphicon glyphicon-menu-up"></span></a>
+</nav>
+<script src="js/jquery-1.12.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!--[ if lte IE 6 ]-->
+<script type="text/javascript" src="js/bootstrap-ie.js"></script>
+<![endif]-->
+</body>
+</html>
